@@ -4,7 +4,7 @@ artifactTitle: "Lorem Ipsum"
 talendVersion: "5.1.0"
 artifactTags: "lorem,ipsum"
 author: "kharindran@talend.com"
-artifactVersion: "1"
+artifactVersion: "2"
 ---
 
 # Lorem Ipsum
