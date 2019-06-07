@@ -92,9 +92,9 @@ def main():
     
     first_hash = api_output.split('|')[0]
     files = api_output.split('|')[1]
-    
+
     print("First hash is "+first_hash)
-    
+
     userName=getUsername(first_hash, git_password)
     print("Username is "+userName)
 
@@ -161,7 +161,7 @@ def main():
         newFile.write("---")
         newFile.write("\nid: \""+artifactKey+"\"")
         newFile.write(attributes)
-        newFile.write("author: \""+userName+"\"")
+        newFile.write("author: \""+userName.replace("@talend.com","")+"\"")
         newFile.write("\nartifactVersion: \"1\"")
         newFile.write("\n---")
         newFile.write(mdRead.split('---')[2])
