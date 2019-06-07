@@ -2,7 +2,7 @@
 pwd=$1
 repository="https://kapils-repos:$pwd@github.com/kapils-repos/Pull-Config.git"
 localFolder="/home/travis/build/kapils-repos/Developer-Private/Pull-Config"
-cd Config-Repo
+cd Pull-Config
 ls
 git status
 git add .
