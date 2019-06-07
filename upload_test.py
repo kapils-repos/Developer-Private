@@ -95,7 +95,7 @@ def main():
     
     print("First hash is "+first_hash)
     
-    userName=getUsername(hash_code[1].rstrip("\\n"), git_password)
+    userName=getUsername(first_hash, git_password)
     print("Username is "+userName)
 
     #output=subprocess.check_output(cmd, shell=True)
