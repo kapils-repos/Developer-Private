@@ -93,6 +93,8 @@ def main():
     first_hash = api_output.split('|')[0]
     files = api_output.split('|')[1]
     
+    print("First hash is "+first_hash)
+    
     userName=getUsername(hash_code[1].rstrip("\\n"), git_password)
     print("Username is "+userName)
 
